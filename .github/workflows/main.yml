@@ -1,0 +1,6 @@
+on: [push]
+
+jobs:
+  services:
+    redis:
+      image: redis
