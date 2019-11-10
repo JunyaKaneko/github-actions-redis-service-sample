@@ -4,3 +4,6 @@ jobs:
   services:
     redis:
       image: redis
+
+  steps:
+  - uses: actions/checkout@v1
