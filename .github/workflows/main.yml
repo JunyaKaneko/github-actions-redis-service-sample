@@ -1,9 +1,10 @@
 on: [push]
 
 jobs:
-  services:
-    redis:
-      image: redis
+  main-job:
+    services:
+      redis:
+        image: redis
 
-  steps:
-  - uses: actions/checkout@v1
+    steps:
+    - uses: actions/checkout@v1
